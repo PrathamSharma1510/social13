@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom'
 import * as serviceWorker from './serviceWorker'
 import 'leaflet/dist/leaflet.css'
 import 'semantic-ui-css/semantic.min.css'
+// Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
+// Bootstrap Bundle JS
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import Routes from './routes/routes'
-
+import "./index.css";
 ReactDOM.render(
   <Routes />
   ,
